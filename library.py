@@ -11,8 +11,3 @@ class CSVPrinter:
             lines = [row for row in reader]
         return lines
     
-q = CSVPrinter('sample.csv')
-f = q.read()
-print(f)
-    
-    

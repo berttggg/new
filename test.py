@@ -20,5 +20,5 @@ class TestCSVPrinter(unittest.TestCase):
             printer.read()
             unittest.TestCase.fail("This line should not be invoked")
         except (FileNotFoundError, IOError) as e:
-            print('No such as a file')
+            print('No such a file')
         
